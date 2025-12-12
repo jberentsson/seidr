@@ -17,8 +17,8 @@ BinaryCounterMax::BinaryCounterMax(const atoms &args) {
             std::make_unique<outlet<>>(this, "(anything) output bit " + std::to_string(i)));
     }
 
-    int maxValue = (int) std::pow(2, this->stepCount - 1);
-    this->counter_ = Counter(maxValue);
+    int calcucatedMaxValue = (int) std::pow(2, this->stepCount - 1);
+    this->counter_ = Counter(calcucatedMaxValue);
 
     updateOutputs();
 }

@@ -29,6 +29,13 @@ if(MSVC)
     )
 endif()
 
+if(MINGW)
+    # Static linking flags
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
+    set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -static")
+    set(CMAKE_MODULE_LINKER_FLAGS "${CMAKE_MODULE_LINKER_FLAGS} -static")
+endif()
+
 #############################################################
 # Functions
 #############################################################

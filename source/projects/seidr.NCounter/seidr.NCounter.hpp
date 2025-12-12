@@ -13,10 +13,10 @@ using namespace c74::min;
 
 class NCounterMax : public object<NCounterMax> {
 public:
-    MIN_DESCRIPTION{"NCounter"};     // NOLINT 
-    MIN_TAGS{"jb, counter"};         // NOLINT 
-    MIN_AUTHOR{"Jóhann Berentsson"}; // NOLINT 
-    MIN_RELATED{"seidr.*"};          // NOLINT 
+    MIN_DESCRIPTION {"NCounter"};          // NOLINT 
+    MIN_TAGS        {"seidr, counter"};    // NOLINT 
+    MIN_AUTHOR      {"Jóhann Berentsson"}; // NOLINT 
+    MIN_RELATED     {"seidr.*"};           // NOLINT 
 
     enum : uint8_t {
         OUTPUT_COUNT = 10

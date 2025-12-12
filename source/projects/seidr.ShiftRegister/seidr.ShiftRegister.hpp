@@ -34,10 +34,10 @@ public:
 
 class ShiftRegisterMax : public object<ShiftRegisterMax> {
 public:
-    MIN_DESCRIPTION{"Shift Register"}; // NOLINT 
-    MIN_TAGS{"seidr"};                 // NOLINT 
-    MIN_AUTHOR{"Jóhann Berentsson"};   // NOLINT 
-    MIN_RELATED{"seidr.*"};            // NOLINT 
+    MIN_DESCRIPTION {"Shift Register"};    // NOLINT 
+    MIN_TAGS        {"seidr"};             // NOLINT 
+    MIN_AUTHOR      {"Jóhann Berentsson"}; // NOLINT 
+    MIN_RELATED     {"seidr.*"};           // NOLINT 
     
     enum : uint8_t {
         BIT_COUNT = 8,

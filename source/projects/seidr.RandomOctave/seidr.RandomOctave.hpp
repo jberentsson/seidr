@@ -17,10 +17,10 @@ private:
     RandomOctave randomOctave_;
 
 public:
-    MIN_DESCRIPTION{"Randomize the octave of a MIDI note message."}; // NOLINT 
-    MIN_TAGS{"seidr"};                                               // NOLINT 
-    MIN_AUTHOR{"Jóhann Berentsson"};                                 // NOLINT 
-    MIN_RELATED{"seidr.*"};                                          // NOLINT 
+    MIN_DESCRIPTION {"Randomize the octave of a MIDI note message."}; // NOLINT 
+    MIN_TAGS        {"seidr"};                                        // NOLINT 
+    MIN_AUTHOR      {"Jóhann Berentsson"};                            // NOLINT 
+    MIN_RELATED     {"seidr.*"};                                      // NOLINT 
 
     enum Inlets : uint8_t {
         NOTE = 0,

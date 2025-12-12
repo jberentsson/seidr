@@ -1,6 +1,8 @@
 # CMAKE -----------------------------------------------
 # CMake build directories (all generated)
+wbuild/
 build/
+docs/
 x86/
 
 # Visual Studio generated files

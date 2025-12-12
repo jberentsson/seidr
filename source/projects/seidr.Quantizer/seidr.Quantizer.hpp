@@ -16,10 +16,10 @@ private:
     Quantizer quantizer_;
 
 public:
-    MIN_DESCRIPTION{"Quantize a MIDI note message."}; // NOLINT
-    MIN_TAGS{"seidr"};                                // NOLINT
-    MIN_AUTHOR{"Jóhann Berentsson"};                  // NOLINT
-    MIN_RELATED{"seidr.*"};                           // NOLINT
+    MIN_DESCRIPTION {"Quantize a MIDI note message."}; // NOLINT
+    MIN_TAGS        {"seidr"};                         // NOLINT
+    MIN_AUTHOR      {"Jóhann Berentsson"};             // NOLINT
+    MIN_RELATED     {"seidr.*"};                       // NOLINT
 
     enum Inlets : uint8_t {
         NOTE = 0,

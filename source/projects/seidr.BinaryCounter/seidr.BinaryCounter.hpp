@@ -13,10 +13,10 @@ using namespace c74::min;
 
 class BinaryCounterMax : public object<BinaryCounterMax> {
 public:
-    MIN_DESCRIPTION{"Binary Counter"}; // NOLINT 
-    MIN_TAGS{"seidr"};                 // NOLINT 
-    MIN_AUTHOR{"Jóhann Berentsson"};   // NOLINT 
-    MIN_RELATED{"seidr.*"};            // NOLINT 
+    MIN_DESCRIPTION {"Binary Counter"};    // NOLINT 
+    MIN_TAGS        {"seidr"};             // NOLINT 
+    MIN_AUTHOR      {"Jóhann Berentsson"}; // NOLINT 
+    MIN_RELATED     {"seidr.*"};           // NOLINT 
     
     enum : std::uint8_t {
         OUTPUT_COUNT = 8
